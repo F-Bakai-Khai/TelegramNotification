@@ -6,5 +6,7 @@
         public long TelegramId { get; set; }
         public string NickName { get; set; } = null!;
         public DateTime CreationDate { get; set; }
+        
+        public UserSettings UserSettings { get; set; }
     }
 }
